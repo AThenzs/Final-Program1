@@ -33,12 +33,13 @@ nav ul li a {
 }
 
 #hero {
-    background-image: url("Z\ NO\ GAME.jpg");
+    background-image: url("head\ \(1\).jpg");
     background-size: cover;
     background-position: right;
     text-align: center;
+    text-size-adjust: 30;
     padding: 100px 20px;
-    color: rgb(37, 224, 115);
+    color: rgb(2, 2, 2);
 }
 
 .hero-content {
