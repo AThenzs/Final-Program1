@@ -10,6 +10,25 @@ header {
   text-align: center;
   padding: 20px;
 }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+nav ul li a {
+  color: #f3f0f0;
+  text-decoration: none;
+  padding: 10px;
+}
 
 .container {
   display: flex;
@@ -23,7 +42,7 @@ header {
   background-color: #f1f1f1;
   border: 1px solid #ccc;
   padding: 40px;
-  margin: 20px;
+  margin: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transform-style: preserve-3d;
   transform: rotateX(20deg) rotateY(30deg);
@@ -41,16 +60,16 @@ header {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #3791d1;
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 .btn-primary {
-  background-color: #3498db;
+  background-color: #e37215;
 }
 
 .btn-secondary {

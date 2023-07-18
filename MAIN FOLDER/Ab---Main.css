@@ -33,13 +33,13 @@ nav ul li a {
 }
 
 #hero {
-    background-image: url("head\ \(1\).jpg");
+    background-image: url("COver.jpg");
     background-size: cover;
     background-position: right;
     text-align: center;
     text-size-adjust: 30;
     padding: 100px 20px;
-    color: rgb(2, 2, 2);
+    color: rgb(242, 242, 242);
 }
 
 .hero-content {

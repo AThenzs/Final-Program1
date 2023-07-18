@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-image: url("Z\ COVER.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .overlay {
+    background-color: rgba(228, 223, 223, 0.5);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  
+  /* Sections */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  
+  /* About Section */
+  #about h2 {
+    text-align: center;
+  }
+  
+  
+  /* Services Section */
+  #services .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .service {
+    flex-basis: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  
+  .service img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Portfolio Section */
+  #portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  
+  .portfolio-item {
+    position: relative;
+  }
+  
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .overlay {
+    position: end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  
+  .overlay:hover {
+    opacity: 1;
+  }
+  
+  
+  .overlay h1 {
+    color: #f7f3f3;
+    text-align: center;
+    text-size-adjust: 40;
+
+  }
+  
+  
+  /* Contact Section */
+  #contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #contact form input,
+  #contact form textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
