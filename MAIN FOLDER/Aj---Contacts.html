@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ab---Main.css">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            perspective: 800px;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .barber {
+            position: relative;
+            width: 200px;
+            height: 300px;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            animation: spin 10s linear infinite;
+        }
+
+        .barber img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            backface-visibility: hidden;
+        }
+
+        @keyframes spin {
+            from { transform: rotateY(0); }
+            to { transform: rotateY(360deg); }
+        }
+
+        .services {
+            background-color: #f5f5f5;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .service-item {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            transform-style: preserve-3d;
+        }
+
+        .service-item:hover {
+            transform: rotateY(180deg);
+        }
+
+        .service-item h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Aa----Main.html">Home</a></li>
+                <li><a href="Af---about.html">About</a></li>
+                <li><a href="Ac---Learn More.html">Services</a></li>
+                <li><a href="Ah---Pro.html">Portfolio</a></li>
+                <li><a href="Aj---Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </nav>
+
+</head>
+<body>
+    <header>
+        <h1>Connect With Us</h1>
+    </header>
+
+    <div class="barber">
+        <img src="barber.jpg" alt="Barber Image">
+    </div>
+
+    <div class="services">
+        <div class="service-item">
+            <h2>Haircuts</h2>
+        </div>
+        <div class="service-item">
+            <h2>Beard Trimming</h2>
+        </div>
+        <div class="service-item">
+            <h2>Hot Towel Shave</h2>
+        </div>
+    </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="site-footer6 site-footer" id="footer_main" aria-label="Main Site Footer">
+        <div class="footer-inner">
+        <div class="footer-info">
+        <div class="footer-title footer-logo">
+        <div class="footer-title-inner">
+        <span class="first-line">THE GOLDEN CUT</span>
+        <span class="second-line"></span>
+        <span class="third-line">GIVING YOU THE BEST HEAD</span>
+        </div>
+        </div>
+        <div class="footer-address">
+        <span class="footer-info-block"> SOME STREET BLVD KANSAS CITY, MO </span>
+        <span class="footer-info-block">Phone: <a href="tel:">(911)-911-9119</a> </span>
+        <span class="footer-info-block">Text Us: <a href="tel:"></a>(911)-911-9119 </span>
+        <span class="footer-info-block">Fax:(911)-911-9119 </span>
+    <footer>
+        <p>No need </p>
+</body>
+</html>
