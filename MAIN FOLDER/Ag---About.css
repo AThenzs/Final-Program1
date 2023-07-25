@@ -168,4 +168,5 @@ body {
     text-align: center;
     padding: 10px;
   }
-  
+  /* Media query for smaller screens */
+@media (max-width: 768px){}
